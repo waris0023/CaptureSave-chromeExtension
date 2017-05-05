@@ -1,0 +1,17 @@
+{
+  "name": "Capture and Save",
+  "version": "1",
+  "description": "Capture the webpage as image and save it for future reference.",
+  "background": {
+        "persistent": false,
+        "scripts": ["download.js"]
+  },
+  "manifest_version": 2,
+  "browser_action": {
+        "default_title": "Capture it!",
+        "default_icon": "icon.png"
+  },
+  "permissions": [
+        "downloads", "activeTab"
+  ]
+}
